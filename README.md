@@ -4,6 +4,8 @@ Proves the visual-order reordering gap: Arabic extracted from PDFs/OCR causes
 **tokenizer blowup** and **retrieval recall collapse** that NFKC and CAMeL Tools
 cannot fix — but `arabic-repair` can.
 
+![arabic-benchmark results](docs/demo.png)
+
 ## Install
 
 ```bash

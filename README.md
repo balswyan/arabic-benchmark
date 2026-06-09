@@ -11,6 +11,8 @@ Measures tokenizer blowup and retrieval recall across five text pipelines on a 3
 Arabic corpus. Shows that NFKC normalization and CAMeL Tools both fail to restore retrieval
 recall after visual-order contamination — because they fix the codepoints but not the word order.
 
+![Logical vs visual-order Arabic — the bytes differ even when the screen looks identical; NFKC cannot fix the order, arabic-repair does](docs/pipeline.png)
+
 ![arabic-benchmark results](docs/demo.png)
 
 ## The findings

@@ -37,6 +37,12 @@ reversed word order — retrieval recall stays at 27%, identical to uncleaned ba
 > `normalize_unicode` is NFKC plus character-level variant folding and does **not** reorder
 > words — exactly the gap this benchmark isolates.
 
+## Verification
+
+The numbers above were independently reproduced, and the effect was confirmed on a **real PDF**
+(not just simulated contamination). See [`VERIFICATION.md`](VERIFICATION.md) and the runnable
+round-trip tests in [`tests/real_world/`](tests/real_world/) (PDF + image OCR).
+
 ## Install & run
 
 The benchmark runs from source (it is not published to PyPI):
